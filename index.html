@@ -62,6 +62,64 @@
       <a class="navbar-brand brand-logo-container" href="index.html">
         <img src="images/logo.png" alt="Reno Sons Stucco & Stone" class="brand-logo-img">
       </a>
+      <ul class="navbar-nav nav-desktop-menu d-none d-xl-flex">
+        <li class="nav-item"><a class="nav-link nav-link-reno" href="about.html">About</a></li>
+
+        <!-- Services Dropdown -->
+        <li class="nav-item nav-item-dropdown">
+          <a class="nav-link nav-link-reno mobile-dropdown-toggle" href="services.html">
+            Services <i class="bi bi-chevron-down dropdown-arrow-icon"></i>
+          </a>
+          <div class="dropdown-menu-reno">
+            <a class="dropdown-item-reno" href="exterior-stucco.html">Exterior Stucco</a>
+            <a class="dropdown-item-reno" href="stone-siding.html">Stone Siding</a>
+            <a class="dropdown-item-reno" href="services.html#repair">Stucco Repair</a>
+            <a class="dropdown-item-reno" href="services.html#restoration">Exterior Restoration</a>
+            <a class="dropdown-item-reno" href="stucco-finishes.html">Architectural Details</a>
+          </div>
+          <div class="dropdown-menu-mobile">
+            <a href="exterior-stucco.html">Exterior Stucco</a>
+            <a href="stone-siding.html">Stone Siding</a>
+            <a href="services.html#repair">Stucco Repair</a>
+            <a href="services.html#restoration">Exterior Restoration</a>
+            <a href="stucco-finishes.html">Architectural Details</a>
+          </div>
+        </li>
+
+        <li class="nav-item"><a class="nav-link nav-link-reno" href="stucco-finishes.html">Stucco Finishes</a></li>
+
+        <!-- Portfolio Dropdown -->
+        <li class="nav-item nav-item-dropdown">
+          <a class="nav-link nav-link-reno mobile-dropdown-toggle" href="portfolio.html">
+            Portfolio <i class="bi bi-chevron-down dropdown-arrow-icon"></i>
+          </a>
+          <div class="dropdown-menu-reno">
+            <a class="dropdown-item-reno" href="portfolio.html">All Projects</a>
+            <a class="dropdown-item-reno" href="before-after.html">Before & After</a>
+            <a class="dropdown-item-reno" href="portfolio.html#stucco">Stucco Homes</a>
+            <a class="dropdown-item-reno" href="portfolio.html#stone">Stone Siding</a>
+            <a class="dropdown-item-reno" href="portfolio.html#installation">Stucco Installation</a>
+          </div>
+          <div class="dropdown-menu-mobile">
+            <a href="portfolio.html">All Projects</a>
+            <a href="before-after.html">Before & After</a>
+            <a href="portfolio.html#stucco">Stucco Homes</a>
+            <a href="portfolio.html#stone">Stone Siding</a>
+            <a href="portfolio.html#installation">Stucco Installation</a>
+          </div>
+        </li>
+
+        <li class="nav-item"><a class="nav-link nav-link-reno" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-reno" href="for-builders.html">For Builders</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-reno" href="contact.html">Contact</a></li>
+      </ul>
+
+      <!-- DESKTOP PHONE (SAME ROW, NEVER WRAPS) -->
+      <div class="nav-phone-slot d-none d-xl-flex">
+        <a href="tel:+14168763485" class="navbar-contact-subtle">
+          <i class="bi bi-telephone-fill text-red"></i> +1 (416) 876-3485
+        </a>
+      </div>
 
       <button class="navbar-toggler text-white border-0 p-2" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -71,10 +129,11 @@
       <div class="offcanvas offcanvas-end offcanvas-reno-mobile" tabindex="-1" id="offcanvasNavbar">
         <div class="offcanvas-header">
           <img src="images/logo.png" alt="Reno Sons Stucco" style="height: 42px;">
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-          <ul class="navbar-nav mx-auto">
+          <ul class="navbar-nav nav-mobile-menu mx-auto">
             <li class="nav-item"><a class="nav-link nav-link-reno" href="about.html">About</a></li>
 
             <!-- Services Dropdown -->
@@ -126,12 +185,6 @@
             <li class="nav-item"><a class="nav-link nav-link-reno" href="contact.html">Contact</a></li>
           </ul>
 
-          <div class="d-none d-xl-block ms-4">
-            <a href="tel:+14168763485" class="navbar-contact-subtle">
-              <i class="bi bi-telephone-fill text-red"></i> +1 (416) 876-3485
-            </a>
-          </div>
-
           <div class="d-xl-none mt-4 pt-3 border-top border-secondary">
             <a href="tel:+14168763485" class="btn btn-reno btn-reno-primary w-100 mb-3">
               <i class="bi bi-telephone-fill"></i> CALL +1 (416) 876-3485
@@ -156,10 +209,13 @@
           <div class="col-lg-10 col-xl-9">
             <div class="hero-eyebrow">RENO SONS STUCCO • NORTH YORK & GTA</div>
             <h1 class="hero-title-carousel">EXTERIORS<br>BUILT TO<br><span class="text-red">IMPRESS.</span></h1>
-            <p class="hero-desc-carousel">North York's premier architectural stucco and stone siding specialist. Continuous EIFS insulation, acrylic textures, and luxury transformations.</p>
+            <p class="hero-desc-carousel">North York's premier architectural stucco and stone siding specialist.
+              Continuous EIFS insulation, acrylic textures, and luxury transformations.</p>
             <div class="hero-cta-wrap d-flex flex-wrap gap-3 align-items-center">
-              <a href="contact.html" class="btn-reno btn-reno-primary">REQUEST FREE ESTIMATE <i class="bi bi-arrow-right btn-arrow-icon"></i></a>
-              <a href="portfolio.html" class="btn-reno btn-reno-outline-white">EXPLORE PORTFOLIO <i class="bi bi-arrow-right btn-arrow-icon"></i></a>
+              <a href="contact.html" class="btn-reno btn-reno-primary">REQUEST FREE ESTIMATE <i
+                  class="bi bi-arrow-right btn-arrow-icon"></i></a>
+              <a href="portfolio.html" class="btn-reno btn-reno-outline-white">EXPLORE PORTFOLIO <i
+                  class="bi bi-arrow-right btn-arrow-icon"></i></a>
             </div>
           </div>
         </div>
@@ -177,10 +233,13 @@
           <div class="col-lg-10 col-xl-9">
             <div class="hero-eyebrow">NATURAL MASONRY & STACKED STONE</div>
             <h1 class="hero-title-carousel">TIMELESS<br>STONE<br><span class="text-red">CRAFT.</span></h1>
-            <p class="hero-desc-carousel">Elevate your architectural facade with precision stacked stone, natural ledge veneer, and custom masonry accents engineered for Canadian weather.</p>
+            <p class="hero-desc-carousel">Elevate your architectural facade with precision stacked stone, natural ledge
+              veneer, and custom masonry accents engineered for Canadian weather.</p>
             <div class="hero-cta-wrap d-flex flex-wrap gap-3 align-items-center">
-              <a href="stone-siding.html" class="btn-reno btn-reno-primary">VIEW STONE SIDING <i class="bi bi-arrow-right btn-arrow-icon"></i></a>
-              <a href="contact.html" class="btn-reno btn-reno-outline-white">BOOK CONSULTATION <i class="bi bi-arrow-right btn-arrow-icon"></i></a>
+              <a href="stone-siding.html" class="btn-reno btn-reno-primary">VIEW STONE SIDING <i
+                  class="bi bi-arrow-right btn-arrow-icon"></i></a>
+              <a href="contact.html" class="btn-reno btn-reno-outline-white">BOOK CONSULTATION <i
+                  class="bi bi-arrow-right btn-arrow-icon"></i></a>
             </div>
           </div>
         </div>
@@ -198,10 +257,13 @@
           <div class="col-lg-10 col-xl-9">
             <div class="hero-eyebrow">ACRYLIC & EIFS TECHNOLOGY</div>
             <h1 class="hero-title-carousel">ENGINEERED<br>FOR<br><span class="text-red">PERFORMANCE.</span></h1>
-            <p class="hero-desc-carousel">High R-value thermal envelope solutions combining fiberglass mesh reinforcement, weatherproofing membranes, and fade-resistant acrylic finishes.</p>
+            <p class="hero-desc-carousel">High R-value thermal envelope solutions combining fiberglass mesh
+              reinforcement, weatherproofing membranes, and fade-resistant acrylic finishes.</p>
             <div class="hero-cta-wrap d-flex flex-wrap gap-3 align-items-center">
-              <a href="exterior-stucco.html" class="btn-reno btn-reno-primary">EIFS SPECIFICATIONS <i class="bi bi-arrow-right btn-arrow-icon"></i></a>
-              <a href="stucco-finishes.html" class="btn-reno btn-reno-outline-white">FINISH GALLERY <i class="bi bi-arrow-right btn-arrow-icon"></i></a>
+              <a href="exterior-stucco.html" class="btn-reno btn-reno-primary">EIFS SPECIFICATIONS <i
+                  class="bi bi-arrow-right btn-arrow-icon"></i></a>
+              <a href="stucco-finishes.html" class="btn-reno btn-reno-outline-white">FINISH GALLERY <i
+                  class="bi bi-arrow-right btn-arrow-icon"></i></a>
             </div>
           </div>
         </div>
@@ -219,10 +281,13 @@
           <div class="col-lg-10 col-xl-9">
             <div class="hero-eyebrow">EXPERT RESTORATION & OVERHAULS</div>
             <h1 class="hero-title-carousel">FROM DATED<br>TO<br><span class="text-red">DISTINCTION.</span></h1>
-            <p class="hero-desc-carousel">Turn aging brick, stucco cracks, or outdated siding into a high-end modern masterpiece. Complete facade overhauls across the GTA.</p>
+            <p class="hero-desc-carousel">Turn aging brick, stucco cracks, or outdated siding into a high-end modern
+              masterpiece. Complete facade overhauls across the GTA.</p>
             <div class="hero-cta-wrap d-flex flex-wrap gap-3 align-items-center">
-              <a href="before-after.html" class="btn-reno btn-reno-primary">BEFORE & AFTER SLIDER <i class="bi bi-arrow-right btn-arrow-icon"></i></a>
-              <a href="contact.html" class="btn-reno btn-reno-outline-white">RESTORATION INQUIRY <i class="bi bi-arrow-right btn-arrow-icon"></i></a>
+              <a href="before-after.html" class="btn-reno btn-reno-primary">BEFORE & AFTER SLIDER <i
+                  class="bi bi-arrow-right btn-arrow-icon"></i></a>
+              <a href="contact.html" class="btn-reno btn-reno-outline-white">RESTORATION INQUIRY <i
+                  class="bi bi-arrow-right btn-arrow-icon"></i></a>
             </div>
           </div>
         </div>
@@ -239,11 +304,15 @@
         <div class="row">
           <div class="col-lg-10 col-xl-9">
             <div class="hero-eyebrow">BUILDER PARTNERSHIPS & CUSTOM HOMES</div>
-            <h1 class="hero-title-carousel">RELIABLE<br>SUB-CONTRACTING<br><span class="text-red">EXCELLENCE.</span></h1>
-            <p class="hero-desc-carousel">Partnering with GTA custom home builders and commercial developers. On-schedule delivery, OBC code compliance, and flawless trade execution.</p>
+            <h1 class="hero-title-carousel">RELIABLE<br>SUB-CONTRACTING<br><span class="text-red">EXCELLENCE.</span>
+            </h1>
+            <p class="hero-desc-carousel">Partnering with GTA custom home builders and commercial developers.
+              On-schedule delivery, OBC code compliance, and flawless trade execution.</p>
             <div class="hero-cta-wrap d-flex flex-wrap gap-3 align-items-center">
-              <a href="for-builders.html" class="btn-reno btn-reno-primary">FOR BUILDERS <i class="bi bi-arrow-right btn-arrow-icon"></i></a>
-              <a href="contact.html" class="btn-reno btn-reno-outline-white">SUBMIT BLUEPRINTS / RFP <i class="bi bi-arrow-right btn-arrow-icon"></i></a>
+              <a href="for-builders.html" class="btn-reno btn-reno-primary">FOR BUILDERS <i
+                  class="bi bi-arrow-right btn-arrow-icon"></i></a>
+              <a href="contact.html" class="btn-reno btn-reno-outline-white">SUBMIT BLUEPRINTS / RFP <i
+                  class="bi bi-arrow-right btn-arrow-icon"></i></a>
             </div>
           </div>
         </div>
@@ -279,10 +348,15 @@
       <div class="row align-items-center g-5">
         <div class="col-lg-6 gsap-reveal-left">
           <div class="section-tag">MASTER EXTERIOR CONTRACTOR</div>
-          <h2 class="editorial-intro-text mb-4">ENGINEERING BEAUTY & <span class="text-red">THERMAL PERFORMANCE.</span></h2>
-          <p class="lead text-dark fw-semibold mb-3">Reno Sons Stucco is North York's premiere exterior specialist, transforming luxury residences and commercial facades with custom stucco systems and natural stone masonry.</p>
-          <p class="text-muted mb-4">We specialize in EIFS (Exterior Insulation and Finish Systems), continuous insulation, moisture barrier envelope integration, and hand-crafted acrylic finishes built to withstand Ontario's extreme freeze-thaw cycles.</p>
-          
+          <h2 class="editorial-intro-text mb-4">ENGINEERING BEAUTY & <span class="text-red">THERMAL PERFORMANCE.</span>
+          </h2>
+          <p class="lead text-dark fw-semibold mb-3">Reno Sons Stucco is North York's premiere exterior specialist,
+            transforming luxury residences and commercial facades with custom stucco systems and natural stone masonry.
+          </p>
+          <p class="text-muted mb-4">We specialize in EIFS (Exterior Insulation and Finish Systems), continuous
+            insulation, moisture barrier envelope integration, and hand-crafted acrylic finishes built to withstand
+            Ontario's extreme freeze-thaw cycles.</p>
+
           <div class="row g-4 mt-2">
             <div class="col-6">
               <div class="border-start border-3 border-danger ps-3">
@@ -301,10 +375,12 @@
 
         <div class="col-lg-6 gsap-reveal-right">
           <div class="overlap-image-container">
-            <img src="images/stucco_craftsmanship.jpg" alt="Master Stucco Application" class="overlap-img-main rounded shadow-lg">
+            <img src="images/stucco_craftsmanship.jpg" alt="Master Stucco Application"
+              class="overlap-img-main rounded shadow-lg">
             <div class="overlap-card-floating rounded">
               <h4 class="text-white uppercase mb-2">PRECISION EIFS SYSTEMS</h4>
-              <p class="small text-white-50 mb-0">Engineered layer-by-layer for maximum R-value thermal insulation, impact resistance, and vibrant UV color stability.</p>
+              <p class="small text-white-50 mb-0">Engineered layer-by-layer for maximum R-value thermal insulation,
+                impact resistance, and vibrant UV color stability.</p>
             </div>
           </div>
         </div>
@@ -315,12 +391,14 @@
   <!-- STACKED SERVICES EDITORIAL SECTION -->
   <section class="py-5 bg-surface-light border-top border-bottom border-light">
     <div class="container py-lg-4">
-      <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-end mb-5 gsap-reveal-up">
+      <div
+        class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-end mb-5 gsap-reveal-up">
         <div>
           <div class="section-tag">SERVICES & CAPABILITIES</div>
           <h2 class="text-uppercase mb-0">OUR CORE <span class="text-red">DISCIPLINES.</span></h2>
         </div>
-        <a href="services.html" class="btn-reno btn-reno-outline-black mt-3 mt-md-0">ALL SERVICES <i class="bi bi-arrow-right btn-arrow-icon"></i></a>
+        <a href="services.html" class="btn-reno btn-reno-outline-black mt-3 mt-md-0">ALL SERVICES <i
+            class="bi bi-arrow-right btn-arrow-icon"></i></a>
       </div>
 
       <div class="service-stacked-list gsap-stagger-parent">
@@ -340,7 +418,8 @@
               </div>
             </div>
             <div class="col-md-3 text-md-end">
-              <a href="exterior-stucco.html" class="btn-reno btn-reno-black btn-sm">EXPLORE STUCCO <i class="bi bi-arrow-right btn-arrow-icon"></i></a>
+              <a href="exterior-stucco.html" class="btn-reno btn-reno-black btn-sm">EXPLORE STUCCO <i
+                  class="bi bi-arrow-right btn-arrow-icon"></i></a>
             </div>
           </div>
         </div>
@@ -361,7 +440,8 @@
               </div>
             </div>
             <div class="col-md-3 text-md-end">
-              <a href="stone-siding.html" class="btn-reno btn-reno-black btn-sm">EXPLORE STONE <i class="bi bi-arrow-right btn-arrow-icon"></i></a>
+              <a href="stone-siding.html" class="btn-reno btn-reno-black btn-sm">EXPLORE STONE <i
+                  class="bi bi-arrow-right btn-arrow-icon"></i></a>
             </div>
           </div>
         </div>
@@ -382,7 +462,8 @@
               </div>
             </div>
             <div class="col-md-3 text-md-end">
-              <a href="stucco-finishes.html" class="btn-reno btn-reno-black btn-sm">VIEW FINISHES <i class="bi bi-arrow-right btn-arrow-icon"></i></a>
+              <a href="stucco-finishes.html" class="btn-reno btn-reno-black btn-sm">VIEW FINISHES <i
+                  class="bi bi-arrow-right btn-arrow-icon"></i></a>
             </div>
           </div>
         </div>
@@ -395,7 +476,8 @@
             </div>
             <div class="col-md-4">
               <h3 class="h4 text-uppercase mb-1">STUCCO REPAIR & RESTORATION</h3>
-              <p class="small text-muted mb-0">Crack repair, moisture remediations, re-coating, and complete overhauls.</p>
+              <p class="small text-muted mb-0">Crack repair, moisture remediations, re-coating, and complete overhauls.
+              </p>
             </div>
             <div class="col-md-4">
               <div class="service-stacked-img-wrap">
@@ -403,7 +485,8 @@
               </div>
             </div>
             <div class="col-md-3 text-md-end">
-              <a href="services.html#repair" class="btn-reno btn-reno-black btn-sm">REPAIR SERVICES <i class="bi bi-arrow-right btn-arrow-icon"></i></a>
+              <a href="services.html#repair" class="btn-reno btn-reno-black btn-sm">REPAIR SERVICES <i
+                  class="bi bi-arrow-right btn-arrow-icon"></i></a>
             </div>
           </div>
         </div>
@@ -418,9 +501,12 @@
         <div class="col-lg-5 gsap-reveal-left">
           <div class="section-tag">REAL TRANSFORMATIONS</div>
           <h2 class="text-uppercase mb-4">DRAG TO SEE THE <span class="text-red">DIFFERENCE.</span></h2>
-          <p class="lead text-dark mb-3">Our complete exterior overhauls take aging brick, cracked plaster, or outdated siding and elevate it into modern luxury.</p>
-          <p class="text-muted mb-4">Drag the slider handle left or right to inspect the precision craftsmanship, smooth acrylic finish, and integrated stone detail.</p>
-          <a href="before-after.html" class="btn-reno btn-reno-primary">EXPLORE ALL TRANSFORMATIONS <i class="bi bi-arrow-right btn-arrow-icon"></i></a>
+          <p class="lead text-dark mb-3">Our complete exterior overhauls take aging brick, cracked plaster, or outdated
+            siding and elevate it into modern luxury.</p>
+          <p class="text-muted mb-4">Drag the slider handle left or right to inspect the precision craftsmanship, smooth
+            acrylic finish, and integrated stone detail.</p>
+          <a href="before-after.html" class="btn-reno btn-reno-primary">EXPLORE ALL TRANSFORMATIONS <i
+              class="bi bi-arrow-right btn-arrow-icon"></i></a>
         </div>
 
         <div class="col-lg-7 gsap-reveal-right">
@@ -450,14 +536,16 @@
       <div class="text-center max-w-700 mx-auto mb-5 gsap-reveal-up">
         <div class="section-tag justify-content-center">OUR ARCHITECTURAL WORKFLOW</div>
         <h2 class="text-uppercase">ENGINEERED FROM <span class="text-red">PREP TO FINISH.</span></h2>
-        <p class="text-muted">Every Reno Sons project follows a strict 5-stage quality process to guarantee moisture resistance and structural durability.</p>
+        <p class="text-muted">Every Reno Sons project follows a strict 5-stage quality process to guarantee moisture
+          resistance and structural durability.</p>
       </div>
 
       <div class="process-timeline-bar">
         <div class="process-step-item">
           <div class="process-step-num">01</div>
           <h4 class="h5 text-uppercase">CONSULT & EVALUATE</h4>
-          <p class="small text-muted mb-0">On-site structural assessment, substrate check, and custom finish selection.</p>
+          <p class="small text-muted mb-0">On-site structural assessment, substrate check, and custom finish selection.
+          </p>
         </div>
         <div class="process-step-item">
           <div class="process-step-num">02</div>
@@ -467,12 +555,14 @@
         <div class="process-step-item">
           <div class="process-step-num">03</div>
           <h4 class="h5 text-uppercase">CONTINUOUS BOARD</h4>
-          <p class="small text-muted mb-0">High-density EPS insulation board mechanically fastened for thermal R-value.</p>
+          <p class="small text-muted mb-0">High-density EPS insulation board mechanically fastened for thermal R-value.
+          </p>
         </div>
         <div class="process-step-item">
           <div class="process-step-num">04</div>
           <h4 class="h5 text-uppercase">MESH & BASE COAT</h4>
-          <p class="small text-muted mb-0">Heavy-duty fiberglass mesh embedded in polymer scratch coat for high impact protection.</p>
+          <p class="small text-muted mb-0">Heavy-duty fiberglass mesh embedded in polymer scratch coat for high impact
+            protection.</p>
         </div>
         <div class="process-step-item">
           <div class="process-step-num">05</div>
@@ -489,11 +579,14 @@
       <div class="row align-items-center g-4">
         <div class="col-lg-8 gsap-reveal-left">
           <div class="section-tag text-red">READY TO ELEVATE YOUR PROPERTY?</div>
-          <h2 class="text-white text-uppercase display-5 font-heading mb-3">LET'S BUILD A <span class="text-red">DISTINCTIVE EXTERIOR.</span></h2>
-          <p class="text-white-50 lead mb-0">Contact our North York team today for a free on-site consultation and detailed cost proposal.</p>
+          <h2 class="text-white text-uppercase display-5 font-heading mb-3">LET'S BUILD A <span
+              class="text-red">DISTINCTIVE EXTERIOR.</span></h2>
+          <p class="text-white-50 lead mb-0">Contact our North York team today for a free on-site consultation and
+            detailed cost proposal.</p>
         </div>
         <div class="col-lg-4 text-lg-end gsap-reveal-right">
-          <a href="contact.html" class="btn-reno btn-reno-primary btn-lg">REQUEST A FREE ESTIMATE <i class="bi bi-arrow-right btn-arrow-icon"></i></a>
+          <a href="contact.html" class="btn-reno btn-reno-primary btn-lg">REQUEST A FREE ESTIMATE <i
+              class="bi bi-arrow-right btn-arrow-icon"></i></a>
         </div>
       </div>
     </div>
@@ -507,9 +600,11 @@
           <a href="index.html" class="d-inline-block mb-3">
             <img src="images/logo.png" alt="Reno Sons Stucco" style="height: 48px;">
           </a>
-          <p class="text-white-50 small mb-4">North York's premier architectural exterior contractor specializing in luxury EIFS stucco systems, natural stone siding, acrylic finishes, and complete facade overhauls.</p>
+          <p class="text-white-50 small mb-4">North York's premier architectural exterior contractor specializing in
+            luxury EIFS stucco systems, natural stone siding, acrylic finishes, and complete facade overhauls.</p>
           <div class="d-flex gap-3">
-            <a href="tel:+14168763485" class="btn-reno btn-reno-primary btn-sm"><i class="bi bi-telephone-fill"></i> CALL NOW</a>
+            <a href="tel:+14168763485" class="btn-reno btn-reno-primary btn-sm"><i class="bi bi-telephone-fill"></i>
+              CALL NOW</a>
             <a href="contact.html" class="btn-reno btn-reno-outline-white btn-sm">FREE ESTIMATE</a>
           </div>
         </div>
@@ -540,12 +635,15 @@
         </div>
         <div class="col-lg-3 col-md-4">
           <h5 class="footer-heading-ed">CONTACT RENO SONS</h5>
-          <p class="text-white-50 small mb-2"><i class="bi bi-geo-alt-fill text-red me-2"></i>911-5 Brahms Avenue, North York, ON, M2H 1H2</p>
+          <p class="text-white-50 small mb-2"><i class="bi bi-geo-alt-fill text-red me-2"></i>911-5 Brahms Avenue, North
+            York, ON, M2H 1H2</p>
           <p class="text-white fw-bold mb-2"><i class="bi bi-telephone-fill text-red me-2"></i>+1 (416) 876-3485</p>
-          <p class="text-white-50 small mb-0"><i class="bi bi-envelope-fill text-red me-2"></i>info@renosonsstucco.ca</p>
+          <p class="text-white-50 small mb-0"><i class="bi bi-envelope-fill text-red me-2"></i>info@renosonsstucco.ca
+          </p>
         </div>
       </div>
-      <div class="border-top border-secondary pt-4 mt-5 d-flex flex-column flex-md-row justify-content-between align-items-center text-white-50 small">
+      <div
+        class="border-top border-secondary pt-4 mt-5 d-flex flex-column flex-md-row justify-content-between align-items-center text-white-50 small">
         <p class="mb-0">&copy; <span class="current-year"></span> Reno Sons Stucco. All Rights Reserved.</p>
         <div>North York & GTA Architectural Exterior Contractors</div>
       </div>
